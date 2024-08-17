@@ -43,7 +43,7 @@ function SigninPage() {
     <div className="h-screen w-full flex flex-col items-center justify-center gap-5">
       <form
         onSubmit={submitHandler}
-        className="w-96 sm:shadow-normal px-7 py-10 rounded-md flex flex-col gap-6"
+        className="w-full md:w-96 sm:shadow-normal px-7 py-10 rounded-md flex flex-col gap-6"
       >
         <h1 className="text-blue-500 text-3xl font-semibold text-center">
           ورود
