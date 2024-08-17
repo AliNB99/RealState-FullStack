@@ -84,13 +84,13 @@ function SigninPage() {
         <div className="w-80 border-2 space-y-5 border-blue-300 rounded-lg text-sm font-bold p-3">
           <div className="flex items-center justify-between">
             <h4 className="text-blue-500 font-medium">ایمیل پنل ادمین</h4>
-            <span className="text-zinc-600 dark:text-white">
+            <span className="text-zinc-600 font-medium">
               ali.nadimi313@gmail.com
             </span>
           </div>
           <div className="flex items-center justify-between">
             <h4 className="text-blue-500 font-medium">رمز عبور</h4>
-            <span className="text-zinc-600 dark:text-white">123456</span>
+            <span className="text-zinc-600 font-medium">123456</span>
           </div>
         </div>
       </div>
