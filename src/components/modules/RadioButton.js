@@ -7,8 +7,8 @@ function RadioButton({ value, form, setForm, name, children }) {
   };
 
   return (
-    <div className="bg-blue-50 flex justify-between w-24 gap-3 py-2 px-4 rounded-md">
-      <label htmlFor={value} className="text-blue-700 font-medium">
+    <div className="bg-blue-50 flex justify-between max-w-24 gap-3 py-2 px-4 rounded-md">
+      <label htmlFor={value} className="text-blue-700 font-medium text-sm md:text-base">
         {children}
       </label>
       <input

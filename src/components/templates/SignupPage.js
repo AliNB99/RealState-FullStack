@@ -29,7 +29,7 @@ function SignupPage() {
     const res = await fetch("/api/auth/signup", {
       method: "POST",
       body: JSON.stringify(form),
-    });
+    });x
     const data = await res.json();
     setIsLoading(false);
     if (!data.error) {
@@ -44,7 +44,7 @@ function SignupPage() {
     <div className="h-screen w-full flex items-center justify-center">
       <form
         onSubmit={submitHandler}
-        className="w-full md:w-96 sm:shadow-normal px-7 py-10 rounded-md flex flex-col gap-6"
+        className="w-full sm:w-96 sm:shadow-normal px-7 py-10 rounded-md flex flex-col gap-6"
       >
         <h1 className="text-blue-500 text-3xl font-semibold text-center">
           ثبت نام

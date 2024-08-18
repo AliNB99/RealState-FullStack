@@ -5,7 +5,7 @@ import React from "react";
 
 function Sidebar({ category }) {
   return (
-    <sidebar className="absolute md:relative flex items-center justify-center md:justify-start bg-white w-full md:w-60 h-fit space-y-3 shadow-normal p-2 md:p-6 rounded-md">
+    <sidebar className="absolute top-0 md:relative flex items-center justify-center md:justify-start bg-white w-full md:w-60 h-fit space-y-3 shadow-normal p-2 md:p-6 rounded-md">
       <ul className="flex md:flex-col gap-10 md:gap-5">
         <h4 className="font-semibold hidden md:flex">
           <HiFilter className="text-blue-500" />

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="flex flex-col bg-blue-500 text-white mx-4 mb-16 mt-16 p-5 rounded-md">
+    <footer className="flex flex-col bg-blue-500 text-white mx-4 mb-28 sm:mb-10 mt-16 p-5 rounded-md">
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-20 justify-between">
         <div className="space-y-4">
           <h3 className="text-2xl font-semibold">سامانه خرید و اجاره ملک</h3>
