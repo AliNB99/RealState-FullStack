@@ -24,6 +24,7 @@ const listDashboard = [
     name: "acceptingAdvertising",
     title: "تایید آگهی",
     icon: <CgCheckO size={20} />,
+    link: "/dashboard/admin",
   },
   {
     name: "signOut",
